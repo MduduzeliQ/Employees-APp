@@ -1,0 +1,26 @@
+
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title class="align"><ion-icon name="heart"></ion-icon> Registered</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content class="background" >
+<ion-card  *ngFor="let a of arry; let i = index">
+<p>{{a.Name}}</p>
+<p>{{a.Sname}}</p>
+<p>{{a.Identification}}</p>
+<p>{{a.EmployeeRole}}</p>
+</ion-card>
+
+<div align="center">
+    <button ion-button type="reset"  round color="primary" (click)="delete()">Remove</button>
+ <button ion-button round color="primary" (click)="showPrompt()">Edit</button>
+</div>
+<ion-footer>
+  <ion-toolbar color="primary">
+    <p class="p">&copy;2018 DLAMINI</p>
+  </ion-toolbar>
+</ion-footer>
+</ion-content>

@@ -1,0 +1,45 @@
+
+<ion-header>
+    <ion-title class="align"><ion-icon name="information"></ion-icon> Register</ion-title>
+</ion-header>
+
+<ion-content class="background">
+
+<ion-card> 
+<ion-list>
+<ion-item>
+<ion-label floating>Name</ion-label>
+<ion-input type="text" [(ngModel)]="Name"></ion-input>
+</ion-item>
+
+<ion-item>
+<ion-label floating>Surname</ion-label>
+<ion-input type="text" [(ngModel)]="Sname"></ion-input>
+</ion-item>
+
+
+<ion-item>
+<ion-label floating>Identification</ion-label>
+<ion-input type="text" [(ngModel)]="Identification"></ion-input>
+</ion-item>
+
+<ion-item>
+<ion-label floating>Role</ion-label>
+<ion-input type="text" [(ngModel)]="EmployeeRole"></ion-input>
+</ion-item>
+
+</ion-list>
+</ion-card>
+
+<div align="center">
+    <button ion-button round color="primary" (click)="ToRetrieve()">Register</button>
+    <button ion-button type="submit" round color="primary" (click)="Cleaning()">Clear</button>
+    </div>
+
+
+<ion-footer>
+  <ion-toolbar color="primary">
+    <p align="center">&copy;2018 DLAMINI</p>
+  </ion-toolbar>
+</ion-footer>
+</ion-content>

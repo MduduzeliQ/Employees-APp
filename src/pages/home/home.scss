@@ -1,0 +1,49 @@
+page-home {
+    .background{
+        background-image: url('../../assets/back.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+}
+// .container{
+//     padding-top: 3em;
+//     padding:20px;
+//     width: 100px auto;
+//     margin: 0 auto;
+//     margin-left: 40px;
+//     margin-right: 40px;
+//     border: 3px solid rgb(7, 7, 7);
+//     opacity: 0.80;
+//     border-top-left-radius: 20px;
+//     border-top-right-radius: 20px;
+//     border-bottom-left-radius: 20px;
+//     border-bottom-right-radius: 20px;
+//     flex-direction: column;
+//     align-content: center;
+//     justify-content: center;
+//     align-items: center;
+//     background-color: rgb(42, 99, 165);
+//     position: fixed;
+// }
+.push{
+    height: 150px;
+}
+.navbarlogologo{
+float: left;
+margin-left: 10px;
+}
+.alignment{
+    padding-top:1em;
+    text-align: left;
+}
+p{
+    text-align: center;
+}
+ion-footer{
+    color: wheat;
+    position: fixed;
+}
+ion-card{
+    position: fixed;
+} 
+}

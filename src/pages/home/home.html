@@ -1,0 +1,32 @@
+<ion-header>
+
+<ion-navbar color="primary">
+<ion-title  class="alignment"> Home</ion-title>  
+    
+</ion-navbar>      
+</ion-header>
+
+
+
+<ion-content class="background" padding>
+    <div class="push"></div><br><br>
+<ion-list class="container">
+ 
+    <ion-item>
+    <ion-label floating>Username</ion-label>
+    <ion-input type="text" value="" [(ngModel)]="username"></ion-input>
+    </ion-item>
+    <ion-item>
+    <ion-label floating>Password</ion-label>
+    <ion-input type="password" [(ngModel)]="password"></ion-input>
+    </ion-item>
+    <div align="center" padding="1em">
+      <button ion-button type="submit" round color="primary" (click)="ToList()" >Log in</button>
+      </div>
+</ion-list>
+<ion-footer>
+    <ion-toolbar color="primary">
+      <p>&copy;2018 DLAMINI</p>
+    </ion-toolbar>
+</ion-footer>
+</ion-content>
